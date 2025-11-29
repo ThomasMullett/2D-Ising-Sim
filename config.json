@@ -1,0 +1,26 @@
+{
+  "output_dir": "data/",
+  "eq_sweeps": 500000,
+  "meas_sweeps": 1000000,
+  "meas_interval": 10,
+
+  "animate": false,
+  "animation_interval": 10,
+  "animation_save": "animations/",
+
+  "temperatures": [2.265, 2.278],
+  "temperature_range": {
+    "start": 1,
+    "stop": 3.5,
+    "num": 30
+  },
+  "lattice_sizes_powers_of_2": [8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768],
+  "lattice_sizes": [256],
+  "seeds": [57],
+  "algorithms": [
+    {
+      "name": "DoubleCheckerboardOpenCL",
+      "params": {"k": 150}
+    }
+  ]
+}

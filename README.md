@@ -11,6 +11,6 @@ GPU-accelerated Monte Carlo simulations of the 2D Ising model using OpenCL, Numb
 - **Up to 4 orders of magnitude speedup** over optimised CPU versions
 
 ## Repository Structure
-/src – CPU, GPU and Numba implementations
-/utils - Utility functions
-/paper – Research manuscript (PDF + LaTeX)
+- /src – CPU, GPU and Numba implementations
+- /utils - Utility functions
+- /paper – Research manuscript (PDF + LaTeX)
